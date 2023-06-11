@@ -1,0 +1,43 @@
+.outerBox{
+
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap
+  }
+  .innerBox{
+    width:400px;
+    height:400px;
+    text-align:center;
+    
+    margin-top:20px
+  }
+  
+  .image{
+    width:200px;
+    height:200px;
+    border-radius:150px;
+  }
+  .heading{
+    color:gray;
+  }
+  .price{
+    color:palevioletred
+  }
+  
+  
+  .ice{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+    text-align:center
+    
+  }
+  
+  .iceTitle{
+    color:palevioletred;
+     font-family: cursive;
+    margin-top:6%
+  }
